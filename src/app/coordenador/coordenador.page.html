@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="centralizar">Coordenador</ion-title>    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="botaoCentralizado">
+    <ion-button color="light" shape="round" expand="full" [routerLink]="['materia']"> 
+      <ion-icon slot="start" name="newspaper-outline"></ion-icon>
+      Matéria 
+    </ion-button>
+    <ion-button color="light" shape="round" expand="full" [routerLink]="['aluno-cadastro']"> 
+      <ion-icon slot="start" name="person-outline"></ion-icon>
+      Aluno 
+    </ion-button>
+    <ion-button color="light"shape="round" expand="full" [routerLink]="['professor-cadastro']"> 
+      <ion-icon slot="start" name="person-circle-outline"></ion-icon>
+      Professor 
+    </ion-button>
+
+    <div id="centralizar">
+      <ion-button id="tamanho" size="small" shape="round" color="medium" [routerLink]="['']">Voltar</ion-button>
+    </div>
+
+  </div>
+
+</ion-content>

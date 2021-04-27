@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'coordenador',
+    loadChildren: () => import('./coordenador/coordenador.module').then( m => m.CoordenadorPageModule)
+  },
 ];
 
 @NgModule({

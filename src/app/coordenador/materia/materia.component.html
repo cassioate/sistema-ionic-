@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="centralizar">Matéria</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    
+    <div id="espacamento">    
+      <ion-item id="bordas">
+        <ion-label position="floating">Nome</ion-label>
+        <ion-textarea></ion-textarea>
+      </ion-item>
+      <ion-item id="bordas">
+        <ion-label position="floating">Instituição</ion-label>
+        <ion-textarea></ion-textarea>
+      </ion-item>
+      <ion-item id="bordas">
+        <ion-label position="floating">Carga Horaria</ion-label>
+        <ion-textarea></ion-textarea>
+      </ion-item>
+     </div>
+  
+    <div id="centralizar">
+      <ion-button id="tamanho" size="small" shape="round" color="medium" [routerLink]="['/coordenador']">Voltar</ion-button>
+    </div>
+    <div id="centralizar">
+      <ion-button id="tamanho" size="small" shape="round" color="success" [routerLink]="['/coordenador']" >Cadastrar</ion-button>
+    </div>
+    
+  </div>
+</ion-content>
