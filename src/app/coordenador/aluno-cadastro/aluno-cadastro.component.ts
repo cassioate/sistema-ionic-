@@ -41,7 +41,6 @@ export class AlunoCadastroComponent implements OnInit {
   saveAluno(){
     this.coordenadorService.postAluno(this.newAluno).subscribe((response) => {
       this.clear()
-      console.log(this.newAluno)
       this.showAlert()
     });
   }

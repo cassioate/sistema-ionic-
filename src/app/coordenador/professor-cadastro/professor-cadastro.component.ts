@@ -39,9 +39,8 @@ export class ProfessorCadastroComponent implements OnInit {
   }
 
   saveProfessor(){
-    this.coordenadorService.postProfessor(this.newProfessor).subscribe(() => {
+    this.coordenadorService.postProfessor(this.newProfessor).subscribe((response) => {
       this.clear()
-      console.log(this.newProfessor)
       this.showAlert()
     });
   }
