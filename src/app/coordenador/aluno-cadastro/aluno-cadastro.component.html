@@ -9,12 +9,14 @@
     
     <div id="espacamento">
       <ion-item id="bordas">
-        <ion-label position="floating">Nome</ion-label>
-        <ion-textarea></ion-textarea>
+        <ion-label position="stacked">Nome</ion-label>
+        <ion-textarea [(ngModel)]="newAluno.nome"></ion-textarea>
       </ion-item>
-      <ion-item id="bordas">
-        <ion-label position="floating">Materia</ion-label>
-        <ion-textarea></ion-textarea>
+      <ion-item> 
+        <ion-label id="bordas">Matéria</ion-label>
+        <ion-select placeholder="Selecione" [(ngModel)]="newAluno.materia">
+          <ion-select-option *ngFor="let materia of materias" [value]="materia.nome"> {{materia.nome}} </ion-select-option>
+        </ion-select>
       </ion-item>
     </div>
     
@@ -22,7 +24,7 @@
       <ion-button id="tamanho" size="small" shape="round" color="medium" [routerLink]="['/coordenador']">Voltar</ion-button>
     </div>
     <div id="centralizar">
-      <ion-button id="tamanho" size="small" shape="round" color="success" [routerLink]="['/coordenador']" >Cadastrar</ion-button>
+      <ion-button (click)="saveAluno()" id="tamanho" size="small" shape="round" color="success" [routerLink]="['/coordenador']" >Cadastrar</ion-button>
     </div>
 
   </div>

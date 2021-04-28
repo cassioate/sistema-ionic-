@@ -17,7 +17,6 @@ import { ProfessorCadastroComponent } from './professor-cadastro/professor-cadas
     FormsModule,
     IonicModule,
     CoordenadorPageRoutingModule
-    
   ],
   declarations: [
     CoordenadorPage,

@@ -15,6 +15,14 @@ ion-content{
 }
 
 #bordas{
-  border-style:outset;
-  padding: 2%;
+  border-style:dotted;
+  padding: 1%;
+  margin-bottom: 10%;
+  border-bottom-right-radius: 25%;
+}
+
+#subir{
+  margin-bottom: 5%;
+  text-align: center;
+  margin-left: 15%;
 }

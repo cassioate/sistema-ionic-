@@ -11,10 +11,28 @@
 }
 
 ion-content{
-   --background: url(../../../assets/img/12.jpg);
+   --background: url(../../../assets/img/2.jpg);
 }
  
 #bordas{
-   border-style:outset;
-   padding: 2%;
+   border-style:dotted;
+   padding: 1%;
+   margin-top: 10%;
+   border-bottom-right-radius: 25%;
+}
+
+#cargaHoraria{
+   border-style:dotted;
+   padding: 1%;
+   text-align: center;
+   width: 60%;
+   left: 21%;
+   margin-top: 10%;
+   border-top-left-radius: 25%;
+}
+
+#subir{
+   margin-bottom: 5%;
+   text-align: center;
+   margin-left: 15%;
 }
