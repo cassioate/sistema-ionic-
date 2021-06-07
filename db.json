@@ -2,216 +2,282 @@
   "materia": [
     {
       "id": 1,
+      "nome": "Física",
       "instituicao": "Teste",
-      "cargaHoraria": "Teste",
-      "nome": "Teste"
+      "img": "https://conhecimentocientifico.r7.com/wp-content/uploads/2020/04/o-que-e-fisica-conceito-ramos.jpg"
     },
     {
       "id": 2,
-      "nome": "Cassio",
+      "nome": "Matemática",
       "instituicao": "Teste",
-      "cargaHoraria": 12
+      "img": "https://www.2em1consultoria.com.br/wp-content/uploads/2017/10/58521.jpg"
     },
     {
       "id": 3,
-      "nome": "123",
+      "nome": "Filosofia",
       "instituicao": null,
-      "cargaHoraria": null
+      "img": "https://static.preparaenem.com/2020/11/filosofia.jpg"
     },
     {
       "id": 4,
-      "nome": "1111111111111",
+      "nome": "Português",
       "instituicao": "1111111111",
-      "cargaHoraria": 11111111
+      "img": "https://s2.glbimg.com/k_xc31BHvR3tJ8fqVO_E7Nquq0U=/0x0:1280x720/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/Q/3/SL9YCmTlWOBlJJjeKeBg/literature-3033196-1280.jpg"
     },
     {
       "id": 5,
-      "nome": null,
+      "nome": "Ingles",
       "instituicao": null,
-      "cargaHoraria": null
-    },
-    {
-      "id": 6,
-      "nome": null,
-      "instituicao": null,
-      "cargaHoraria": null
-    },
-    {
-      "id": 7,
-      "nome": null,
-      "instituicao": null,
-      "cargaHoraria": null
-    },
-    {
-      "id": 8,
-      "nome": null,
-      "instituicao": null,
-      "cargaHoraria": null
-    },
-    {
-      "id": 9,
-      "nome": "Pedrinho gay",
-      "instituicao": "demais",
-      "cargaHoraria": 12
+      "img": "https://www.blogsenacsp.com.br/wp-content/uploads/2017/05/ThinkstockPhotos-511281043.jpg"
     }
   ],
   "aluno": [
     {
       "id": 1,
-      "nome": "Teste",
-      "materia": "Cassio"
+      "nome": "Cassio",
+      "materia": "Física",
+      "nota": 8.5
     },
     {
       "id": 2,
-      "nome": "123",
-      "materia": "Teste"
+      "nome": "Cassio",
+      "materia": "Matemática",
+      "nota": 9.5
     },
     {
       "id": 3,
-      "nome": "TESTETESTETE",
-      "materia": "123"
+      "nome": "Cassio",
+      "materia": "Português",
+      "nota": 3
     },
     {
       "id": 4,
-      "nome": "111111111111111",
-      "materia": "1111111111111"
+      "nome": "Cassio",
+      "materia": "Ingles",
+      "nota": 10
     },
     {
       "id": 5,
-      "nome": "Cass",
-      "materia": "Cassio"
+      "nome": "Cassio",
+      "materia": "Filosofia",
+      "nota": 3
     },
     {
       "id": 6,
-      "nome": null,
-      "materia": null
+      "nome": "Fabio",
+      "materia": "Física",
+      "nota": 7
     },
     {
       "id": 7,
-      "nome": null,
-      "materia": "1111111111111"
+      "nome": "Fabio",
+      "materia": "Matemática",
+      "nota": 3
     },
     {
       "id": 8,
-      "nome": null,
-      "materia": null
+      "nome": "Fabio",
+      "materia": "Português",
+      "nota": 3
     },
     {
       "id": 9,
-      "nome": null,
-      "materia": null
+      "nome": "Fabio",
+      "materia": "Ingles",
+      "nota": 5
     },
     {
       "id": 10,
-      "nome": null,
-      "materia": null
+      "nome": "Fabio",
+      "materia": "Filosofia",
+      "nota": 3
     },
     {
       "id": 11,
-      "nome": null,
-      "materia": null
+      "nome": "Claudio",
+      "materia": "Física",
+      "nota": 7
     },
     {
       "id": 12,
-      "nome": null,
-      "materia": null
+      "nome": "Claudio",
+      "materia": "Matemática",
+      "nota": 6
     },
     {
       "id": 13,
-      "nome": null,
-      "materia": null
+      "nome": "Claudio",
+      "materia": "Português",
+      "nota": 3
     },
     {
       "id": 14,
-      "nome": null,
-      "materia": null
+      "nome": "Claudio",
+      "materia": "Ingles",
+      "nota": 3
     },
     {
       "id": 15,
-      "nome": null,
-      "materia": null
+      "nome": "Claudio",
+      "materia": "Filosofia",
+      "nota": 31
     },
     {
       "id": 16,
-      "nome": null,
-      "materia": null
+      "nome": "Abella",
+      "materia": "Física",
+      "nota": 7
     },
     {
       "id": 17,
-      "nome": null,
-      "materia": null
+      "nome": "Abella",
+      "materia": "Matemática",
+      "nota": 3
     },
     {
       "id": 18,
-      "nome": null,
-      "materia": null
+      "nome": "Abella",
+      "materia": "Português",
+      "nota": 3
     },
     {
       "id": 19,
-      "nome": "Thalys",
-      "materia": "Pedrinho gay"
+      "nome": "Abella",
+      "materia": "Ingles",
+      "nota": 3
     },
     {
       "id": 20,
-      "nome": null,
-      "materia": null
+      "nome": "Abella",
+      "materia": "Filosofia",
+      "nota": 3
+    },
+    {
+      "id": 21,
+      "nome": "Pedro",
+      "materia": "Física",
+      "nota": 1
+    },
+    {
+      "id": 22,
+      "nome": "Pedro",
+      "materia": "Matemática",
+      "nota": 3
+    },
+    {
+      "id": 23,
+      "nome": "Pedro",
+      "materia": "Português",
+      "nota": 3
+    },
+    {
+      "id": 24,
+      "nome": "Pedro",
+      "materia": "Ingles",
+      "nota": 3
+    },
+    {
+      "id": 25,
+      "nome": "Pedro",
+      "materia": "Filosofia",
+      "nota": 3
+    },
+    {
+      "id": 26,
+      "nome": "Thalys",
+      "materia": "Física",
+      "nota": 7
+    },
+    {
+      "id": 27,
+      "nome": "Thalys",
+      "materia": "Matemática",
+      "nota": 3
+    },
+    {
+      "id": 28,
+      "nome": "Thalys",
+      "materia": "Português",
+      "nota": 3
+    },
+    {
+      "id": 29,
+      "nome": "Thalys",
+      "materia": "Ingles",
+      "nota": 3
+    },
+    {
+      "id": 30,
+      "nome": "Thalys",
+      "materia": "Filosofia",
+      "nota": 3
+    },
+    {
+      "id": 31,
+      "nome": "Memeu",
+      "materia": "Física",
+      "nota": 7
+    },
+    {
+      "id": 32,
+      "nome": "Memeu",
+      "materia": "Matemática",
+      "nota": 3
+    },
+    {
+      "id": 33,
+      "nome": "Memeu",
+      "materia": "Português",
+      "nota": 35
+    },
+    {
+      "id": 34,
+      "nome": "Memeu",
+      "materia": "Ingles",
+      "nota": 3
+    },
+    {
+      "id": 35,
+      "nome": "Memeu",
+      "materia": "Filosofia",
+      "nota": 3
+    },
+    {
+      "id": 36,
+      "nome": "Alice",
+      "materia": "Física",
+      "nota": 7
+    },
+    {
+      "id": 37,
+      "nome": "Alice",
+      "materia": "Matemática",
+      "nota": 9
+    },
+    {
+      "id": 38,
+      "nome": "Alice",
+      "materia": "Português",
+      "nota": 3
+    },
+    {
+      "id": 39,
+      "nome": "Alice",
+      "materia": "Ingles",
+      "nota": 3
+    },
+    {
+      "id": 40,
+      "nome": "Alice",
+      "materia": "Filosofia",
+      "nota": 3
     }
   ],
   "professor": [
     {
-      "id": 11,
-      "nome": "321",
-      "materia": "Cassio"
-    },
-    {
-      "id": 12,
-      "nome": "321",
-      "materia": "Teste"
-    },
-    {
-      "id": 13,
-      "nome": null,
-      "materia": "Cassio"
-    },
-    {
-      "id": 14,
-      "nome": "9999999999999",
-      "materia": "1111111111111"
-    },
-    {
-      "id": 15,
-      "nome": null,
-      "materia": null
-    },
-    {
-      "id": 16,
-      "nome": null,
-      "materia": null
-    },
-    {
-      "id": 17,
-      "nome": null,
-      "materia": null
-    },
-    {
-      "id": 18,
-      "nome": null,
-      "materia": null
-    },
-    {
-      "id": 19,
-      "nome": null,
-      "materia": null
-    },
-    {
-      "id": 20,
-      "nome": null,
-      "materia": null
-    },
-    {
-      "id": 21,
-      "nome": "Cassio",
-      "materia": "Pedrinho gay"
+      "id": 1,
+      "nome": "Hamurabi",
+      "materia": "Física"
     }
   ]
 }

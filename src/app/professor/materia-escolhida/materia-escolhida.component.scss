@@ -1,0 +1,54 @@
+#centralizar {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+ion-content {
+  --background: none;
+  background: url(../../../assets/img/2.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+
+ion-card {
+  border-radius: 25px;
+}
+
+#espacamento {
+  margin: 0%;
+  text-align: center;
+}
+
+#disciplinaNota1 {
+  box-sizing: inherit;
+  line-height: 3.5;
+  border: 1px solid #cccccc;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  font-size: 20px;
+}
+
+#disciplinaNota2 {
+  box-sizing: inherit;
+  line-height: 3.5;
+  border: 1px solid #cccccc;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-size: 20px;
+}
+
+#cabecalho {
+  padding: auto;
+}

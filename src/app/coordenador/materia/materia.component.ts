@@ -11,7 +11,7 @@ import { CoordenadorService } from '../coordenador.service';
 })
 export class MateriaComponent implements OnInit {
 
-  materias: Materia[] = []
+  materias: Materia[] = [];
 
   newMateria = new Materia(null,null,null,null);
 
@@ -25,13 +25,12 @@ export class MateriaComponent implements OnInit {
   buscarMaterias() {
     this.coordenadorService.getMaterias().subscribe((response: Materia[]) =>{
       this.materias = response;
-    })
+    });
   }
 
   saveMateria(){
     this.coordenadorService.postMateria(this.newMateria).subscribe(() => {
       this.clear();
-      console.log(this.newMateria)
       this.showAlert();
     });
   }
@@ -42,8 +41,8 @@ export class MateriaComponent implements OnInit {
 
   async showAlert(){
     this.alert.create({
-      header: "Cadastrado com sucesso!"
-    }).then(res => res.present())
+      header: 'Cadastrado com sucesso!'
+    }).then(res => res.present());
   }
 
 }

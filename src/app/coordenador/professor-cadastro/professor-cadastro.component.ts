@@ -11,11 +11,11 @@ import { CoordenadorService } from '../coordenador.service';
 })
 export class ProfessorCadastroComponent implements OnInit {
 
-  professores: Professor[] = []
+  professores: Professor[] = [];
 
-  newProfessor = new Professor(null, null, null)
+  newProfessor = new Professor(null, null, null);
 
-  materias: Materia[] = []
+  materias: Materia[] = [];
 
   constructor(
     private coordenadorService: CoordenadorService,
@@ -29,19 +29,19 @@ export class ProfessorCadastroComponent implements OnInit {
   carregarMaterias(){
     return this.coordenadorService.getMaterias().subscribe((response: Materia[]) => {
       this.materias = response;
-    })
+    });
   }
 
   buscarProfessor() {
     this.coordenadorService.getProfessor().subscribe((response: Professor[]) =>{
       this.professores = response;
-    })
+    });
   }
 
   saveProfessor(){
     this.coordenadorService.postProfessor(this.newProfessor).subscribe((response) => {
-      this.clear()
-      this.showAlert()
+      this.clear();
+      this.showAlert();
     });
   }
 
@@ -51,8 +51,8 @@ export class ProfessorCadastroComponent implements OnInit {
 
   async showAlert(){
     this.alert.create({
-      header: "Cadastrado com sucesso!"
-    }).then(res => res.present())
+      header: 'Cadastrado com sucesso!'
+    }).then(res => res.present());
   }
 
 }

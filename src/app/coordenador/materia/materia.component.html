@@ -6,8 +6,8 @@
 
 <ion-content>
   <div>
-    
-    <div id="espacamento">    
+
+    <div id="espacamento">
       <ion-item id="bordas">
         <ion-label position="stacked">Nome</ion-label>
         <ion-textarea id="interno" [(ngModel)]="newMateria.nome"></ion-textarea>
@@ -16,18 +16,18 @@
         <ion-label position="stacked">Instituição</ion-label>
         <ion-textarea id="interno" [(ngModel)]="newMateria.instituicao"></ion-textarea>
       </ion-item>
-      <ion-item id="cargaHoraria">
-        <ion-label id="subir" position="stacked">Carga Horaria</ion-label>
-        <ion-input type="number" [(ngModel)]="newMateria.cargaHoraria"></ion-input>
+      <ion-item id="img">
+        <ion-label id="subir" position="stacked">Imagem</ion-label>
+        <ion-textarea type="text" [(ngModel)]="newMateria.img"></ion-textarea>
       </ion-item>
      </div>
-  
+
     <div id="centralizar">
       <ion-button id="tamanho" size="small" shape="round" color="medium" [routerLink]="['/coordenador']">Voltar</ion-button>
     </div>
     <div id="centralizar">
       <ion-button (click)="saveMateria()" id="tamanho" size="small" shape="round" color="success" [routerLink]="['/coordenador']" >Cadastrar</ion-button>
     </div>
-    
+
   </div>
 </ion-content>

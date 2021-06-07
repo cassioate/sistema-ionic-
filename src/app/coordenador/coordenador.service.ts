@@ -9,9 +9,9 @@ import Professor from '../core/model/Professor';
 })
 export class CoordenadorService {
 
-  private urlMateria = 'https://back-sistema-cadastro.herokuapp.com/materia'
-  private urlAluno = 'https://back-sistema-cadastro.herokuapp.com/aluno'
-  private urlProfessor = 'https://back-sistema-cadastro.herokuapp.com/professor'
+  private urlMateria = 'http://localhost:3000/materia';
+  private urlAluno = 'http://localhost:3000/aluno';
+  private urlProfessor = 'http://localhost:3000/professor';
 
   constructor(
     private httpClient: HttpClient
@@ -26,7 +26,7 @@ export class CoordenadorService {
   }
 
   getAlunos(){
-    return this.httpClient.get(this.urlAluno)
+    return this.httpClient.get(this.urlAluno);
   }
 
   postAluno(aluno: Aluno){
@@ -34,7 +34,7 @@ export class CoordenadorService {
   }
 
   getProfessor(){
-    return this.httpClient.get(this.urlProfessor)
+    return this.httpClient.get(this.urlProfessor);
   }
 
   postProfessor(professor: Professor){

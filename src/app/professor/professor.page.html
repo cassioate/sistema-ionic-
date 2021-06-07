@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="centralizar">Professor</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card id="card" *ngFor="let materia of materias">
+    <ion-card-header>
+      <img src={{materia.img}} alt={{materia.nome}} [routerLink]="['materia-escolhida', materia.nome]">
+      <ion-card-title id="central">{{materia.nome}}</ion-card-title>
+
+    </ion-card-header>
+  </ion-card>
+  <div id="centralizarVoltar">
+    <ion-button id="tamanho" size="small" shape="round" color="medium" [routerLink]="['']">Voltar</ion-button>
+  </div>
+</ion-content>

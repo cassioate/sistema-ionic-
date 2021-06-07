@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="centralizar">Aluno</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+
+    <div id="espacamento">
+      <ion-item id="bordas">
+        <ion-label position="stacked">Nome</ion-label>
+        <ion-textarea [(ngModel)]="aluno.nome"></ion-textarea>
+      </ion-item>
+      <ion-item id="nota">
+        <ion-label id="subir" position="stacked">Nota</ion-label>
+        <ion-input type="number" [(ngModel)]="aluno.nota"></ion-input>
+      </ion-item>
+
+    </div>
+
+    <div id="centralizar">
+      <ion-button id="tamanho" size="small" shape="round" color="medium" [routerLink]="['../../../materia-escolhida', materia]">Voltar</ion-button>
+    </div>
+    <div id="centralizar">
+      <ion-button (click)="atualizarNota(aluno)" id="tamanho" size="small" shape="round" color="success" [routerLink]="['../../../materia-escolhida', materia]" >Cadastrar</ion-button>
+    </div>
+
+  </div>
+</ion-content>

@@ -1,0 +1,32 @@
+#nota {
+  border-style: dotted;
+  padding: 1%;
+  text-align: center;
+  width: 60%;
+  left: 21%;
+  margin-top: 10%;
+  border-top-left-radius: 25%;
+}
+
+#bordas {
+  border-style: dotted;
+  padding: 1%;
+  margin-top: 10%;
+  border-bottom-right-radius: 25%;
+}
+
+ion-content {
+  --background: url(../../../assets/img/5.jpg);
+}
+
+#centralizar {
+  text-align: center;
+}
+
+#tamanho {
+  width: 150px;
+}
+
+#espacamento {
+  padding: 10%;
+}

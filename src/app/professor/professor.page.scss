@@ -1,0 +1,33 @@
+#central {
+  text-align: center;
+}
+
+#card {
+  border-radius: 35px;
+  margin: 10%;
+}
+
+img {
+  width: 500px;
+  height: 150px;
+  border-radius: 35px;
+}
+
+ion-content {
+  --background: none;
+  background: url(../../assets/img/3.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+
+#centralizar {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#centralizarVoltar {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+}

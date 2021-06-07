@@ -1,5 +1,21 @@
+
 <ion-content [fullscreen]="true">
-  <ion-button color="light" id="botaoCentralizado"shape="round" expand="full" [routerLink]="['/coordenador']"> 
-    Coordenador 
+  <div id="botaoCentralizado">
+    <h1>Seja Bem-Vindo</h1>
+    <br>
+
+  <ion-button color="light" shape="round" expand="full" [routerLink]="['/coordenador']">
+    <ion-icon name="walk-outline"></ion-icon>
+    Coordenador
   </ion-button>
+  <ion-button color="light" shape="round" expand="full" [routerLink]="['/aluno']">
+    <ion-icon slot="start" name="person-outline"></ion-icon>
+    Aluno
+  </ion-button>
+  <ion-button color="light" shape="round" expand="full" [routerLink]="['/professor']">
+    <ion-icon slot="start" name="person-circle-outline"></ion-icon>
+    Professor
+  </ion-button>
+  </div>
 </ion-content>
+

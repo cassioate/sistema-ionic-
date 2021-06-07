@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="centralizar">Alunos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content id="backgroundSize">
+  <div id="searchBar">
+  <ion-searchbar (ionInput)="buscar($event)" color="light" animated placeholder="Buscar aluno"></ion-searchbar>
+  </div>
+  <div id="centralizar">
+    <ion-card >
+      <ion-list *ngFor="let aluno of alunos">
+        <ion-item>
+          <a id="teste" [routerLink]="['aluno-unico', aluno.nome]">{{aluno.nome}}</a>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+    <div id="centralizar">
+      <ion-button id="tamanho" size="small" shape="round" color="medium" [routerLink]="['']">Voltar</ion-button>
+    </div>
+  </div>
+
+</ion-content>

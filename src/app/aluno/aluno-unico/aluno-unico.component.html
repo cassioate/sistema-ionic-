@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="centralizar">Alunos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <div id="centralizar">
+      <ion-card >
+        <ion-label id="disciplinaNota1">Disciplina</ion-label>
+        <ion-label id="disciplinaNota2">Nota</ion-label>
+        <ion-list id="espacamento" *ngFor="let nota of notas">
+          <ion-item>
+            <ion-label>{{nota.nome}}</ion-label>
+            <ion-note slot="end">{{nota.nota}}</ion-note>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+
+      <div id="centralizar">
+          <ion-button id="tamanho" size="small" shape="round" color="medium" [routerLink]="['/aluno']">Voltar</ion-button>
+      </div>
+    </div>
+
+</ion-content>
