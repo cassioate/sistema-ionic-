@@ -8,7 +8,7 @@ import Materia from '../core/model/Materia';
 })
 export class ProfessorService {
 
-  private urlMateria = 'http://localhost:3000/materia';
+  private urlMateria = 'http://localhost:8080/materia';
 
 
   constructor(
@@ -18,6 +18,5 @@ export class ProfessorService {
   getMaterias(){
     return this.httpClient.get(this.urlMateria);
   }
-
 
 }

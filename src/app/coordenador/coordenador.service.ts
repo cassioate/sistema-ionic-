@@ -9,9 +9,9 @@ import Professor from '../core/model/Professor';
 })
 export class CoordenadorService {
 
-  private urlMateria = 'http://localhost:3000/materia';
-  private urlAluno = 'http://localhost:3000/aluno';
-  private urlProfessor = 'http://localhost:3000/professor';
+  private urlMateria = 'http://localhost:8080/materia';
+  private urlAluno = 'http://localhost:8080/aluno';
+  private urlProfessor = 'http://localhost:8080/professor';
 
   constructor(
     private httpClient: HttpClient

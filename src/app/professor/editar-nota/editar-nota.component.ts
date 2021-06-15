@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { AlunoService } from 'src/app/aluno/aluno.service';
+import { CoordenadorService } from 'src/app/coordenador/coordenador.service';
 import Aluno from 'src/app/core/model/Aluno';
-import Materia from 'src/app/core/model/Materia';
 
 @Component({
   selector: 'app-editar-nota',
@@ -12,11 +12,12 @@ import Materia from 'src/app/core/model/Materia';
 export class EditarNotaComponent implements OnInit {
 
   aluno = new Aluno(null,null,null,null);
-  materia = '';
+  materia = {};
 
   constructor(
     private alunosService: AlunoService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private cordenadorService: CoordenadorService
   ) { }
 
   ngOnInit() {
@@ -25,7 +26,12 @@ export class EditarNotaComponent implements OnInit {
   }
 
   atualizarNota(aluno: Aluno){
-    return this.alunosService.editAluno(aluno).subscribe();
+   return this.alunosService.editAluno(aluno).subscribe((response: Aluno) => {
+    const alunoEditado = new Aluno(response.id,response.nome,response.materia,response.nota);
+    this.aluno = alunoEditado;
+    location.reload();
+   });
+
   }
 
   carregarAluno(){

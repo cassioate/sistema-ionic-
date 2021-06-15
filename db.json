@@ -29,6 +29,12 @@
       "nome": "Ingles",
       "instituicao": null,
       "img": "https://www.blogsenacsp.com.br/wp-content/uploads/2017/05/ThinkstockPhotos-511281043.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Geografia",
+      "instituicao": "Facisa",
+      "img": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/geografia.jpeg"
     }
   ],
   "aluno": [
@@ -36,7 +42,7 @@
       "id": 1,
       "nome": "Cassio",
       "materia": "Física",
-      "nota": 8.5
+      "nota": 10
     },
     {
       "id": 2,

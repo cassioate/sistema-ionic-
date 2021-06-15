@@ -8,8 +8,8 @@ import Aluno from '../core/model/Aluno';
 export class AlunoService {
 
 
-  private urlAlunos = 'http://localhost:3000/aluno';
-  private urlAluno = 'http://localhost:3000/aluno';
+  private urlAlunos = 'http://localhost:8080/aluno';
+  private urlAluno = 'http://localhost:8080/aluno';
 
   constructor(
     private httpClient: HttpClient

@@ -3,6 +3,6 @@ export default class Materia {
       public id: number,
       public nome: string,
       public instituicao: string,
-      public cargaHoraria: string  
+      public cargaHoraria: string
     ){}
 }
