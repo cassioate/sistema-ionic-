@@ -8,8 +8,8 @@ import Aluno from '../core/model/Aluno';
 export class AlunoService {
 
 
-  private urlAlunos = 'http://localhost:8080/aluno';
-  private urlAluno = 'http://localhost:8080/aluno';
+  private urlAlunos = 'https://back-sistema-cadastro.herokuapp.com/aluno';
+  private urlAluno = 'https://back-sistema-cadastro.herokuapp.com/aluno';
 
   constructor(
     private httpClient: HttpClient

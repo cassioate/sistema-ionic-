@@ -8,7 +8,7 @@ import Materia from '../core/model/Materia';
 })
 export class ProfessorService {
 
-  private urlMateria = 'http://localhost:8080/materia';
+  private urlMateria = 'https://back-sistema-cadastro.herokuapp.com/materia';
 
 
   constructor(
@@ -18,5 +18,6 @@ export class ProfessorService {
   getMaterias(){
     return this.httpClient.get(this.urlMateria);
   }
+
 
 }

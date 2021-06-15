@@ -9,9 +9,9 @@ import Professor from '../core/model/Professor';
 })
 export class CoordenadorService {
 
-  private urlMateria = 'http://localhost:8080/materia';
-  private urlAluno = 'http://localhost:8080/aluno';
-  private urlProfessor = 'http://localhost:8080/professor';
+  private urlMateria = 'https://back-sistema-cadastro.herokuapp.com/materia';
+  private urlAluno = 'https://back-sistema-cadastro.herokuapp.com/aluno';
+  private urlProfessor = 'https://back-sistema-cadastro.herokuapp.com/professor';
 
   constructor(
     private httpClient: HttpClient
