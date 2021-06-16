@@ -38,9 +38,9 @@ export class AlunoPage implements OnInit {
         }
       });
 
-      // this.alunos = this.alunosSeparados;
+      this.alunos = this.alunosSeparados;
 
-      /** REALIZANDO BUSCA TULIZANDO FOREACH */
+      /** REALIZANDO BUSCA TULIZANDO FOREACH (Apenas para conhecimento) */
       // let achou = false;
       // this.alunos.forEach(e=>{
       //   this.alunosSeparados.forEach(element => {
