@@ -12,7 +12,7 @@
     <ion-card >
       <ion-list *ngFor="let aluno of alunos">
         <ion-item>
-          <a id="teste" [routerLink]="['aluno-unico', aluno.nome]">{{aluno.nome}}</a>
+          <a [routerLink]="['aluno-unico', aluno.nome]">{{aluno.nome}}</a>
         </ion-item>
       </ion-list>
     </ion-card>

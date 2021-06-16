@@ -28,15 +28,14 @@ export class AlunoPage implements OnInit {
     this.alunos = [];
     this.alunosService.getAlunos().subscribe((response: Aluno[]) => {
       this.alunos = response;
-      let comparador = '';
       this.alunosSeparados = [];
-      this.alunos.forEach(element => {
-        if (element.nome !== comparador){
-          this.alunosSeparados.push(element);
-          comparador = element.nome;
+      this.alunos.map( e => {
+      const filter = this.alunosSeparados.filter( element => e.nome === element.nome);
+        if (filter.length === 0) {
+          this.alunosSeparados.push(e);
         }
       });
-      this.alunos = this.alunosSeparados;
+        this.alunos = this.alunosSeparados;
     });
   }
 
